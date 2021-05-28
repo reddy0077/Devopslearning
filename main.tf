@@ -10,6 +10,8 @@ terraform {
      bucket = "varunterraformbucket"
      key = "terraformNewcode.tfstate"
      region = "us-east-1"
+     dynamodb_table = "varun-terraformcode-locking"
+     encrypt        = true  
  }
  }
 
