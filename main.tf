@@ -7,8 +7,8 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-     bucket = "varunterraformbucket"
-     key = "terraformNewcode.tfstate"
+     bucket = "varunterraformbucket1"
+     key = "jenkins.tfstate"
      region = "us-east-1"
      #dynamodb_table = "varun-terraformcode-locking"
      #encrypt        = true  
