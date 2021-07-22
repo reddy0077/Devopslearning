@@ -2,5 +2,5 @@
 *.exe
 .terraform.lock.hcl
 backend.json
-dynamodb.json
+dynamodb.tf
 .terraform
